@@ -1,0 +1,45 @@
+@function darken-color($color, $percentage) {
+    @return darken($color, $percentage);
+}
+
+@mixin primary-button($bg-color, $text-color, $hover-percentage, $active-percentage) {
+    background-color: $bg-color;
+    color: $text-color;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: darken-color($bg-color, $hover-percentage) !important;
+        color: $text-color;
+        text-decoration: none;
+    }
+
+    &:active:focus {
+        background-color: darken-color($bg-color, $active-percentage) !important;
+        color: $text-color;
+    }
+}
+
+@mixin outline-button($border-color, $text-color, $hover-percentage, $active-percentage,) {
+    background-color: #fff;
+    border-color: $border-color;
+    color: $text-color;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        border: 1px solid darken-color($border-color, $hover-percentage) !important;
+        color: $text-color;
+        background-color: #fff;
+        text-decoration: none;
+    }
+
+    &:active:focus {
+        border-color: darken-color($border-color, $active-percentage) !important;
+        color: $text-color !important;
+        background-color: $white !important;
+    }
+
+  
+}

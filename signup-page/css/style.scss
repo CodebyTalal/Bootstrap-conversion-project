@@ -1,0 +1,57 @@
+@import "colors.scss";
+@import "fonts.scss";
+@import "buttons.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.form-label{
+    font-family: "Inter", sans-serif ;
+    font-size: 14px;
+    font-optical-sizing: auto ;
+    font-weight: 500;
+    font-style: normal ;
+    font-variation-settings:"slnt" 0 ;
+      color: $gray-700;
+}
+
+.form-control,
+.btn {
+    height: 44px;
+}
+
+.btn-primary{
+    @include primary-button($primary, #fff, 7%, 15%,);
+}
+
+.btn-outline-secondary {
+    @include outline-button($gray-300, $gray-500, 15%, 35%)
+}
+
+.fa-envelope {
+    position: relative;
+    right: 8px;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 2px $primary;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-secondary{
+    img{
+        height: 24px;
+    }
+}

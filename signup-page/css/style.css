@@ -1,0 +1,239 @@
+.primary {
+  color: #2E3092;
+}
+
+.gray-900 {
+  color: #101828;
+}
+
+.gray-800 {
+  color: #101828;
+}
+
+.gray-700 {
+  color: #344054;
+}
+
+.gray-600 {
+  color: #475467;
+}
+
+.gray-500 {
+  color: #667085;
+}
+
+.gray-400 {
+  color: #656e80;
+}
+
+.gray-400 {
+  color: #656e80;
+}
+
+.gray-300 {
+  color: #D0D5DD;
+}
+
+.gray-200 {
+  color: #bdbfc4;
+}
+
+.gray-100 {
+  color: #f0f0f0;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.form-label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: #344054;
+}
+
+.form-control,
+.btn {
+  height: 44px;
+}
+
+.btn-primary {
+  background-color: #2E3092;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #252777 !important;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-primary:active:focus {
+  background-color: #1c1d58 !important;
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+  border-color: #D0D5DD;
+  color: #667085;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-outline-secondary:hover {
+  border: 1px solid #a4adbd !important;
+  color: #667085;
+  background-color: #fff;
+  text-decoration: none;
+}
+.btn-outline-secondary:active:focus {
+  border-color: #697991 !important;
+  color: #667085 !important;
+  background-color: #fff !important;
+}
+
+.fa-envelope {
+  position: relative;
+  right: 8px;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: 0 0 0 2px #2E3092;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary img {
+  height: 24px;
+}/*# sourceMappingURL=style.css.map */
